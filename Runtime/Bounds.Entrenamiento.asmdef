@@ -1,0 +1,30 @@
+{
+	"name": "Bounds.Entrenamiento",
+	"rootNamespace": "Bounds.Entrenamiento",
+    "references": [
+        "Bounds.Cartas",
+        "Bounds.Visor",
+        "Bounds.Mazos",
+        "Bounds.Visuales",
+        "Bounds.Persistencia",
+        "Bounds.Duelo",
+        "Ging1991.Core",
+        "Ging1991.Antiguo",
+        "Ging1991.Dialogos",
+        "Ging1991.Relojes",
+        "Ging1991.Ventanas",
+        "Ging1991.Movimiento",
+        "Ging1991.Animaciones",
+        "Ging1991.Interfaces",
+        "Ging1991.Persistencia"
+    ],
+	"includePlatforms": [],
+	"excludePlatforms": [],
+	"allowUnsafeCode": false,
+	"autoReferenced": true,
+	"overrideReferences": false,
+	"precompiledReferences": [],
+	"defineConstraints": [],
+	"versionDefines": [],
+	"noEngineReferences": false
+}
