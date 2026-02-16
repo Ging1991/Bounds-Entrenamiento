@@ -1,5 +1,6 @@
 using Bounds.Persistencia.Parametros;
 using Ging1991.Persistencia.Direcciones;
+using UnityEngine;
 
 namespace Bounds.Tienda {
 
@@ -11,6 +12,7 @@ namespace Bounds.Tienda {
 			parametros.direcciones["BILLETERA"] = new DireccionDinamica("CONFIGURACION", "BILLETERA.json").Generar();
 			parametros.direcciones["COLECCIONES"] = "COLECCIONES";
 			parametros.escenaPadre = "TEST";
+			Debug.Log("Parametros");
 			parametros.direcciones["MUSICA_DE_FONDO"] = new DireccionRecursos("Musica", "Fondo").Generar();
 			parametros.direcciones["DIRECCION_NOMBRES"] = new DireccionRecursos("Cartas", "Nombres").Generar();
 			parametros.direcciones["MUSICA_DE_FONDO"] = new DireccionRecursos("Musica", "Fondo").Generar();
