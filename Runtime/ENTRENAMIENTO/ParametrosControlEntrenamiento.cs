@@ -20,6 +20,8 @@ namespace Bounds.Tienda {
 			parametros.direcciones["BILLETERA"] = new DireccionDinamica("CONFIGURACION", "BILLETERA.json").Generar();
 			parametros.direcciones["COLECCIONES"] = "COLECCIONES";
 			parametros.direcciones["CARTA_NOMBRES"] = new DireccionRecursos("Cartas", "Nombres").Generar();
+			parametros.direcciones["COFRE_RECURSOS"] = new DireccionRecursos("MAZOS", "COFRE").Generar();
+			parametros.direcciones["COFRE"] = new DireccionDinamica("CONFIGURACION", "COFRE.json").Generar();
 			parametros.direcciones["CARTA_CLASES"] = new DireccionRecursos("Cartas", "Clases").Generar();
 			parametros.direcciones["CARTA_TIPOS"] = new DireccionRecursos("Cartas", "Tipos").Generar();
 			parametros.direcciones["CARTA_INVOCACIONES"] = new DireccionRecursos("Cartas", "Invocaciones").Generar();
