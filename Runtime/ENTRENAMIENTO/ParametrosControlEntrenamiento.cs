@@ -10,6 +10,7 @@ namespace Bounds.Tienda {
 			parametros.escenaPadre = "TEST";
 			parametros.direcciones["MUSICA_DE_FONDO"] = new DireccionRecursos("Musica", "Fondo").Generar();
 			parametros.direcciones["PERSONAJES_NOMBRES"] = new DireccionRecursos("PERSONAJES", "NOMBRES").Generar();
+			parametros.direcciones["SISTEMA"] = new DireccionRecursos("IDIOMAS/SISTEMA", "SISTEMA").Generar();
 			parametros.direcciones["ENTRENAMIENTO_MAZOS"] = "MAZOS/ENTRENAMIENTO";
 			parametros.direcciones["PERSONAJES_MINIATURA"] = "PERSONAJES/MINIATURAS";
 			parametros.direcciones["ENTRENAMIENTO"] = new DireccionDinamica("ENTRENAMIENTO", "ENTRENAMIENTO.json").Generar();
