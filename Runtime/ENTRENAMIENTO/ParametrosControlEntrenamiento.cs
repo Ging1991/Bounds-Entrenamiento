@@ -8,7 +8,9 @@ namespace Bounds.Tienda {
 		public override void SetParametros() {
 			// ENTRENAMIENTO
 			parametros.escenaPadre = "TEST";
-			parametros.direcciones["MUSICA_DE_FONDO"] = new DireccionRecursos("Musica", "Fondo").Generar();
+			parametros.direcciones["MUSICA_DERROTA"] = new DireccionRecursos("Musica", "DERROTA").Generar();
+			parametros.direcciones["MUSICA_VICTORIA"] = new DireccionRecursos("Musica", "VICTORIA").Generar();
+			parametros.direcciones["MUSICA_TIENDA"] = new DireccionRecursos("Musica", "TIENDA").Generar();
 			parametros.direcciones["PERSONAJES_NOMBRES"] = new DireccionRecursos("PERSONAJES", "NOMBRES").Generar();
 			parametros.direcciones["SISTEMA"] = new DireccionRecursos("IDIOMAS/SISTEMA", "SISTEMA").Generar();
 			parametros.direcciones["ENTRENAMIENTO_MAZOS"] = "MAZOS/ENTRENAMIENTO";
