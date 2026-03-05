@@ -24,7 +24,7 @@ namespace Bounds.Entrenamiento {
 			parametrosControl.Inicializar();
 			ParametrosEscena parametros = parametrosControl.parametros;
 
-			musicaDeFondo.Inicializar(parametros.direcciones["MUSICA_DE_FONDO"]);
+			musicaDeFondo.Inicializar(parametrosControl.parametros.direcciones["MUSICA_TIENDA"]);
 			lectorEntrenamiento = new(parametros.direcciones["ENTRENAMIENTO"]);
 			billetera = new(parametros.direcciones["BILLETERA"]);
 			configuracion = new(parametros.direcciones["CONFIGURACION"]);

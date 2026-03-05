@@ -1,6 +1,6 @@
 {
 	"name": "com.bounds.modulos.entrenamientos",
-	"version": "2.0.3",
+	"version": "2.1.0",
 	"displayName": "Bounds - Entrenamiento",
 	"description": "Librería base para soportar otras liberías que he creado.",
 	"unity": "2022.3",
